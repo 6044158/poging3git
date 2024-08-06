@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    width:90vh;
+}
+.hoofdflex{ 
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+}
+.kleinfelx1{
+    display: flex;
+    flex-direction: column;
+}
+   
+
+.kleinfelx1>img{
+    height: 20vh;
+
+}
+.kleinfelx2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 40hv;
+    bottom: 40vh;
+    
+}    
+   

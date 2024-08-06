@@ -1,0 +1,66 @@
+/* margin, padding :zorgtr ervoor dat de standaard formaat van de browers uitgezet wordt */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:20vh ;
+    background-color: white;
+    margin-top: 2vh;
+    background-color: lightblue;
+    
+}
+#hoofdlogo{
+    height: 10vh;
+    width: 30vh;
+    margin-left: 5vh;
+    margin-top: 1vh;
+    
+}
+header>nav{
+    position: fixed;
+    right: 5vw;
+    top:5vh;
+    
+
+}
+/* voor alle links,  padding om spatie (of box rondom:backgroundcolor) tussen de links te creeeren */
+.hoofdnav>a {
+    
+    font-size: 30px;
+    text-decoration: none;
+    padding: 2vh 3vw;
+    
+    
+}
+/* de kluer van de link is beige nadat ik klik komt de link weer blauwe: de oorspronkelijke kluer
+header>nav>a:link{
+    color:rgb(35, 234, 128)
+}*/
+header>nav>a:link, a:active, a:visited {
+    color: black;
+}
+/* als je met muis boven de link komt dan wordt de link red*/
+header>nav>a:hover{
+    color:red ;
+}
+main{
+    background-color:lightpink;
+}
+#achtergrond>img{
+    position: relative;
+    left: 50vh;
+    
+}
+
+footer{
+    height: 10vh;
+    width: auto;
+    background-color: darkblue;
+}
+/* voor de hele : voor de plaats */
+
+
+
+
